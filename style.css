@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.button-contain{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15vmin;
+    margin-top: 5vmin;
+}
+#myimage {
+    width: 50vmin;
+    height: 90vmin;
+}
+button{
+    height: 5vmin;
+    font-size: 2vmin;
+    cursor: pointer;
+    padding: 2%;
+    width: 20vmin;
+}
+h1 {
+    font-size: 5vmin;
+}
+.golu {
+    width: 50vmin;
+    height: 50vmin;
+}

@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <body>
+    <link rel="stylesheet" href="style.css" />
+    <h1>Golu ka Magic bulb</h1>
+    <img id="myimage" src="pic_bulboff.gif" />
+    <div class="button-contain">
+      <button onclick="document.getElementById('myimage').src='pic_bulbon.gif'">
+        Turn on the light
+      </button>
 
-<h2>Golu ka magic bulb</h2>
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
-
-<img id="myImage" src="pic_bulboff.gif" style="width:100px">
-
-<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
-
-</body>
+      <button
+        onclick="document.getElementById('myimage').src='pic_bulboff.gif'"
+      >
+        Turn off the light
+      </button>
+    </div>
+    <img class="golu" src="golu.jpg" alt="golu image">
+  </body>
 </html>
